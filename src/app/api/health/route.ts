@@ -5,7 +5,7 @@ export const dynamic = "force-dynamic";
  * only performed when DATABASE_URL is configured (local sandbox).
  */
 export async function GET() {
-  if (!process.env.DATABASE_URL) {
+  if (!process.env.DATABASE_URL || process.env.VERCEL) {
     return Response.json({ ok: true, db: "skipped" });
   }
   try {
