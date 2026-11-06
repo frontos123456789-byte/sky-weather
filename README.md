@@ -4,6 +4,8 @@
 
 **Next.js 16 (App Router) · TypeScript · Tailwind CSS 4 · Recharts · suncalc**
 
+🔗 **Демо:** https://sky-weather-gamma.vercel.app · **Репозиторий:** https://github.com/frontos123456789-byte/sky-weather
+
 ## Возможности
 
 | Раздел | Что показывает |
